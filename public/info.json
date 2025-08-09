@@ -1,0 +1,19 @@
+{
+  "fullName": "NLG Sakib",
+  "aka": ["N L G Sakib", "nnlgsakib", "Young Buterine"],
+  "bio": "Passionate blockchain enthusiast and professional core blockchain developer with a knack for building custom blockchains, layer2 solutions, dApps, smart contracts, tokens, NFTs, and more. Expertise includes EVM, Solidity, Golang, blockchain security, and contributing to open-source projects like NPM packages and the Visual Studio Marketplace extension \"mama-lang\".",
+  "location": "Khulna, Bangladesh",
+  "email": "nlgarts@outlook.com",
+  "title": "Chief Blockchain Developer",
+  "company": "Edulife Agency",
+  "education": ["BN School and College (Khulna)", "Khulna Government College"],
+  "interests": ["Digital Artist (OpenSea)", "Felinophile (cat lover)"],
+  "socials": {
+    "github": "https://github.com/nnlgsakib",
+    "linkedin": "https://www.linkedin.com/in/nlg-sakib",
+    "instagram": "https://instagram.com/0x_sakib",
+    "x": "https://x.com/nkgsakib",
+    "email": "mailto:nlgarts@outlook.com"
+  },
+  "pinnedFallback": ["open-hash-db", "nlang", "HashLockDB", "NMAL", "Cypsphare", "openhashdb-ui"]
+}
