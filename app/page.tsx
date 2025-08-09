@@ -25,7 +25,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
-import { ParticlesBG } from "@/components/particles-bg"
+import Galaxy from "@/components/galaxy";
 import { ThemeSwitcher } from "@/components/theme-switcher"
 import { ActivityTimeline } from "@/components/activity-timeline"
 import { PinnedRepos } from "@/components/pinned-repos"
@@ -57,7 +57,9 @@ export default function Page() {
         className="fixed left-0 right-0 top-0 z-[60] h-0.5 origin-left bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600"
       />
       <div className="absolute inset-0 -z-10">
-        <ParticlesBG />
+        <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}>
+            <Galaxy mouseRepulsion={true} mouseInteraction={true} density={1.5} glowIntensity={0.5} saturation={0.8} hueShift={240} />
+        </div>
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(1200px_600px_at_50%_-100px,rgba(56,189,248,0.25),transparent)] dark:bg-[radial-gradient(1200px_600px_at_50%_-100px,rgba(56,189,248,0.12),transparent)]" />
       </div>
 

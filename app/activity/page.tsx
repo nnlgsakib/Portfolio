@@ -1,6 +1,6 @@
 "use client"
 
-import { ParticlesBG } from "@/components/particles-bg"
+import Galaxy from "@/components/galaxy";
 import { SiteHeader } from "@/components/site-header"
 import { ThemeSwitcher } from "@/components/theme-switcher"
 import { ActivityTimeline } from "@/components/activity-timeline"
@@ -14,7 +14,9 @@ export default function ActivityPage() {
     <main className="relative min-h-screen overflow-x-hidden">
       <ColorOverrides />
       <div className="absolute inset-0 -z-10">
-        <ParticlesBG />
+        <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}>
+            <Galaxy mouseRepulsion={true} mouseInteraction={true} density={1.5} glowIntensity={0.5} saturation={0.8} hueShift={240} />
+        </div>
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(1200px_600px_at_50%_-100px,rgba(56,189,248,0.25),transparent)] dark:bg-[radial-gradient(1200px_600px_at_50%_-100px,rgba(56,189,248,0.12),transparent)]" />
       </div>
       <SiteHeader rightSlot={<ThemeSwitcher />} />
