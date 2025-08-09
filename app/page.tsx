@@ -81,12 +81,17 @@ export default function Page() {
                 Core Blockchain Engineer
               </span>
             </h1>
-            <p className="mt-5 max-w-2xl text-base text-foreground/80 md:text-lg">
+            {/* <p className="mt-5 max-w-2xl text-base text-foreground/80 md:text-lg">
               Passionate blockchain enthusiast and professional core blockchain developer building custom chains, L2s,
               dApps, smart contracts, tokens, and NFTs. EVM, Solidity, Golang, and security. Open-source contributor to
               NPM and <span className="whitespace-nowrap font-medium">"mama-lang".</span> Also known as{" "}
               <span className="font-mono font-semibold">@nnlgsakib</span> — the self-proclaimed "Young Buterine".
-            </p>
+            </p> */}
+            <p className="mt-5 max-w-2xl text-base text-foreground/80 md:text-lg">
+  Passionate blockchain enthusiast and professional core blockchain developer specializing in custom chains, L2 solutions,
+  dApps, smart contracts, tokens, and NFTs. Expertise in EVM, Solidity, Golang, and security. Active open-source contributor
+  in the blockchain ecosystem. Also known as <span className="font-mono font-semibold">@nnlgsakib</span> — the self-proclaimed "Young Buterine".
+</p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <InfoPill icon={<MapPin className="h-3.5 w-3.5" />} text="Khulna, Bangladesh" />
               <InfoPill
