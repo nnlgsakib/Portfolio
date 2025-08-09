@@ -69,7 +69,7 @@ export default function Page() {
           <div className="relative">
             <div className="inline-flex items-center gap-2 rounded-full border bg-background/60 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
               <Shield className="h-3.5 w-3.5 text-blue-500" />
-              Chief Blockchain Developer @ Edulife Agency
+              Chief Blockchain Developer @ Web3twenty
             </div>
             <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight md:text-6xl">
               <span className="bg-gradient-to-b from-blue-500 to-blue-800 bg-clip-text text-transparent dark:from-cyan-300 dark:to-blue-400">
@@ -105,7 +105,7 @@ export default function Page() {
                 label="Instagram"
                 icon={<Instagram className="h-5 w-5" />}
               />
-              <SocialLink href="https://x.com/nkgsakib" label="X (Twitter)" icon={<Twitter className="h-5 w-5" />} />
+              <SocialLink href="https://x.com/nlg_sakib_" label="X (Twitter)" icon={<Twitter className="h-5 w-5" />} />
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg" className="group bg-gradient-to-r from-blue-600 to-cyan-500">
@@ -206,7 +206,7 @@ export default function Page() {
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
                 <AboutItem icon={<Code2 className="h-4 w-4" />} title="Professional">
-                  Chief Blockchain Developer @ Edulife Agency. Specialized in core chain dev, dApps, smart contracts,
+                  Chief Blockchain Developer @ Web3twenty. Specialized in core chain dev, dApps, smart contracts,
                   and security.
                 </AboutItem>
                 <AboutItem icon={<CircleCheck className="h-4 w-4" />} title="Education">
@@ -235,7 +235,7 @@ export default function Page() {
                   icon={<Instagram className="h-3.5 w-3.5" />}
                   label="Instagram"
                 />
-                <SocialChip href="https://x.com/nkgsakib" icon={<Twitter className="h-3.5 w-3.5" />} label="X" />
+                <SocialChip href="https://x.com/nlg_sakib_" icon={<Twitter className="h-3.5 w-3.5" />} label="X" />
                 <SocialChip href="mailto:nlgarts@outlook.com" icon={<Mail className="h-3.5 w-3.5" />} label="Email" />
               </div>
             </CardContent>
@@ -278,7 +278,7 @@ export default function Page() {
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link href="https://x.com/nkgsakib" className="text-muted-foreground hover:text-foreground">
+            <Link href="https://x.com/nlg_sakib_" className="text-muted-foreground hover:text-foreground">
               <Twitter className="h-5 w-5" />
               <span className="sr-only">X</span>
             </Link>

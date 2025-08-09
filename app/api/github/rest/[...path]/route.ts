@@ -1,6 +1,8 @@
-export async function GET(req: Request, ctx: { params: { path: string[] } }) {
-  const path = (ctx.params?.path || []).join("/")
-  const reqUrl = new URL(req.url)
+import { NextRequest } from "next/server"
+
+export async function GET(req: NextRequest, { params }: { params: { path: string[] } }) {
+  const path = (params?.path || []).join("/")
+  const reqUrl = req.nextUrl
   const target = new URL(`https://api.github.com/${path}`)
   target.search = reqUrl.search
 

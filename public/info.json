@@ -5,14 +5,14 @@
   "location": "Khulna, Bangladesh",
   "email": "nlgarts@outlook.com",
   "title": "Chief Blockchain Developer",
-  "company": "Edulife Agency",
+  "company": "Web3twenty",
   "education": ["BN School and College (Khulna)", "Khulna Government College"],
   "interests": ["Digital Artist (OpenSea)", "Felinophile (cat lover)"],
   "socials": {
     "github": "https://github.com/nnlgsakib",
     "linkedin": "https://www.linkedin.com/in/nlg-sakib",
     "instagram": "https://instagram.com/0x_sakib",
-    "x": "https://x.com/nkgsakib",
+    "x": "https://x.com/nlg_sakib_",
     "email": "mailto:nlgarts@outlook.com"
   },
   "pinnedFallback": ["open-hash-db", "nlang", "HashLockDB", "NMAL", "Cypsphare", "openhashdb-ui"]

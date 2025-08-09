@@ -53,7 +53,7 @@ export default function AboutPage() {
               </div>
               <div className="grid gap-3 sm:grid-cols-2">
                 <AboutItem icon={<Code2 className="h-4 w-4" />} title="Professional">
-                  Chief Blockchain Developer @ Edulife Agency. Specialized in core chain dev, dApps, smart contracts,
+                  Chief Blockchain Developer @ Web3twenty. Specialized in core chain dev, dApps, smart contracts,
                   and security.
                 </AboutItem>
                 <AboutItem icon={<CircleCheck className="h-4 w-4" />} title="Education">
@@ -75,7 +75,7 @@ export default function AboutPage() {
                   icon={<Instagram className="h-3.5 w-3.5" />}
                   label="Instagram"
                 />
-                <Social href="https://x.com/nkgsakib" icon={<Twitter className="h-3.5 w-3.5" />} label="X" />
+                <Social href="https://x.com/nlg_sakib_" icon={<Twitter className="h-3.5 w-3.5" />} label="X" />
                 <Social href="mailto:nlgarts@outlook.com" icon={<Mail className="h-3.5 w-3.5" />} label="Email" />
               </div>
             </CardContent>
